@@ -9,27 +9,6 @@ body{
     background-color: #e6e6e6;
 }
 
-/*---  Layout  ---*/
-
-header{
-    padding: 15px;
-    background-color: rgb(255, 191, 89);
-    text-align: center;
-}
-
-nome-logo,area-menus{
-    padding: 10px;
-}
-
-h1{
-    color: rgb(57, 56, 56);
-    font-size:2.5em;
-}
-
-#branco{
-    color: white
-}
-
 /*    estado menus    */
 
 
@@ -46,3 +25,60 @@ a:hover{
     color:rgb(255, 191, 89);
     background-color: white;
 }
+
+/*---  Layout  ---*/
+
+header{
+    background-color: rgb(255, 191, 89);
+    text-align: center;
+    padding: 15px;
+}
+
+nome-logo,area-menus{
+    padding: 10px;
+}
+
+h1{
+    color: rgb(57, 56, 56);
+    font-size:2.5em;
+}
+
+#branco{
+    color: white
+}
+
+#principal{
+    width: 70%;
+    margin: 20px auto;
+    height: auto;
+}
+
+#postagens{
+    background-color: white;
+    width: 65%;
+    margin-right: 0px;
+    float: left;
+}
+
+#area-lateral{
+    background-color: white;
+    width: 30%;
+    float: right;
+    margin-left: 0px;
+}
+
+
+footer{
+    clear: both;
+    background: rgb(149, 149, 149);
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 15px 0px;
+
+}
+
+
+
+
+
