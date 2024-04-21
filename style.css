@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'trebuchet MS', Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/*---  Layout  ---*/
+
+header{
+    padding: 15px;
+    background-color: rgb(255, 191, 89);
+    text-align: center;
+}
+
+nome-logo,area-menus{
+    padding: 10px;
+}
+
+h1{
+    color: rgb(57, 56, 56);
+    font-size:2.5em;
+}
+
+#branco{
+    color: white
+}
+
+/*    estado menus    */
+
+
+a{
+    text-decoration: none;
+}
+
+a:link , a:visited{
+    color: white;
+    padding: 8px 12px;
+}
+
+a:hover{
+    color:rgb(255, 191, 89);
+    background-color: white;
+}
